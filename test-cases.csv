@@ -1,0 +1,12 @@
+TestID,Area,Scenario,ExpectedResult,Status
+TC-001,Form,Blank subject,Save blocked,Not Run
+TC-002,Validation,Missing account,Save blocked by client and server,Not Run
+TC-003,Plugin,Critical severity,Target = creation time + 4 calendar hours,Not Run
+TC-004,Plugin,High severity,Target = creation time + 8 calendar hours,Not Run
+TC-005,Plugin,Normal severity,Target = creation time + 24 calendar hours,Not Run
+TC-006,Plugin,Low severity,Target = creation time + 72 calendar hours,Not Run
+TC-007,Plugin,Severity changed,Target recalculated,Not Run
+TC-008,Flow,Resolved overdue case,No escalation,Not Run
+TC-009,Flow,Overdue active case,Escalated and notification sent once,Not Run
+TC-010,Flow,Failed integration log,Operations alert sent,Not Run
+TC-011,Security,Integration user attempts delete,Access denied,Not Run

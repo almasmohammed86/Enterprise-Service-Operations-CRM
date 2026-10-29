@@ -1,0 +1,14 @@
+.vs/
+bin/
+obj/
+TestResults/
+*.user
+*.suo
+*.cache
+.env
+*.publishsettings
+*.pfx
+*.snk
+*.zip
+*.log
+.DS_Store
